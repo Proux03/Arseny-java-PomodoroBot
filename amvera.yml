@@ -1,12 +1,12 @@
 meta:
   environment: jvm
   toolchain:
-    name: maven
+    name: gradle
     version: 17
 build:
   artifacts:
-    target/*.jar: /
+    build/libs/*.jar: /
 run:
-  jarName: target/
+  jarName: PomodoroLesson.jar
   persistenceMount: /data
   containerPort: 80

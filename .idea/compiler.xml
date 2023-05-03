@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="PomodoroLesson" options="--add-modules java.base" />
+      <module name="PomodoroLesson" options="" />
     </option>
   </component>
 </project>
