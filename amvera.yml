@@ -1,0 +1,12 @@
+meta:
+  environment: jvm
+  toolchain:
+    name: maven
+    version: 17
+build:
+  artifacts:
+    target/*.jar: /
+run:
+  jarName: target/
+  persistenceMount: /data
+  containerPort: 80
